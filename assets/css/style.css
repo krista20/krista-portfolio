@@ -15,7 +15,6 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -48,33 +47,38 @@ header nav ul {
   }
 
   header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
+    padding: 10px 50px;
+    font-weight:350;
     font-size: 1.55vw;
 }
 
 /* ABOUT ME */
+/* work */
+.about-me h2 {
+    text-align: center;
+    font-size: 3vw;
+    padding: 50px 0 20px 0;
+    color: rgb(75, 0, 75);
+    }
+
 .about-pic {
     display: flex;
     justify-content: center;
-    width: 75%;
-    }
+    padding: 25px;
+}
+
+#aboutMePic {
+    border: 5px solid rgb(75, 0, 75);
+    padding: 10px;
+    border-radius: 100px;
+    /*object-position: 300px 0;*/
+}
 
 .about-bio {
-    padding: 25px;
+    padding: 170px 200px 0 50px;
     line-height: 1.25;
     text-align: left;
-}
-
-article h2 {
-    text-align: center;
-}
-
-.about-me {
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-    
+    font-size: 1.5vw;
 }
 
 /* work */
@@ -92,24 +96,30 @@ article h2 {
     font-weight: bold;
     color: rgb(75, 0, 75);
 }
-.runbuddy {
+.runbuddy, .horiseon, .bakery, .sky-space {
     margin: 25px;
 }
 
 /* footer */
-footer a img {
-    width: 10%;
-    text-align: center;
+
+.footerimg {
+    inline-size: 100px;
+    margin: 5px;
+}
+#one {
+    object-position: 0 -8px;
 }
 
 footer h2 {
     text-align: center;
+    font-size: 3vw;
+    padding: 10px;
 }
 
-footer div {
+.flex-container {
     display: flex;
-    justify-content: center;
-    padding: 15px;
+    justify-content:flex-end;
+    margin-right: 25px;
 }
 
 
@@ -137,6 +147,11 @@ footer div {
         font-size: 20px;
     }
 
+    /*footer*/
+    .flex-container {
+       flex: 0 25%;
+    }
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -145,6 +160,11 @@ footer div {
         display: flex;
         flex-wrap: wrap;
         }
+
+         /*footer*/
+    .flex-container {
+        flex: 0 50%;
+    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -152,6 +172,19 @@ footer div {
     header h1 {
         /* this will be applied to any screen smaller than 575px */
         font-size: 100px;
+    }
+
+     /*footer*/
+     .flex-container {
+        flex: 0 100%;
+    }
+
+    header h1 {
+      line-height: 90px;
+    }
+
+    header nav ul li a {
+        padding: 10px 10px;
     }
 
 }
