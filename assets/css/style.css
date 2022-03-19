@@ -12,8 +12,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     background-size: cover;
     background-position: center;
@@ -84,7 +82,7 @@ header nav ul {
 /* work */
 .projects img {
     width: 100%;
-    border: 2.5px solid rgb(75, 0, 75);;
+    border: 2.5px solid rgb(75, 0, 75);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -101,13 +99,14 @@ header nav ul {
 }
 
 /* footer */
-
 .footerimg {
-    inline-size: 100px;
+    inline-size: 30px;
     margin: 5px;
+    justify-content:end;
 }
+
 #one {
-    object-position: 0 -8px;
+    object-position: 0 -2px;
 }
 
 footer h2 {
@@ -116,11 +115,21 @@ footer h2 {
     padding: 10px;
 }
 
+
 .flex-container {
     display: flex;
-    justify-content:flex-end;
-    margin-right: 25px;
+   justify-content: space-evenly;
+    margin: 25px;
+    font-size: 1.5vw;
+    color: rgb(75, 0, 75);
 }
+
+.email {
+    padding: 12px 0;
+}
+
+
+
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -148,10 +157,11 @@ footer h2 {
     }
 
     /*footer*/
+
     .flex-container {
        flex: 0 25%;
     }
-
+    
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -186,5 +196,11 @@ footer h2 {
     header nav ul li a {
         padding: 10px 10px;
     }
+
+    .email {
+        font-size: 12px;
+    }
+
+ 
 
 }
