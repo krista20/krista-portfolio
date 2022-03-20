@@ -80,23 +80,110 @@ header nav ul {
 }
 
 /* work */
-.projects img {
-    width: 100%;
+/*.projects img {
+    width: 90%;
     border: 2.5px solid rgb(75, 0, 75);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+} */
 
-.projects a {
+/*.projects a {
     display: flex;
     justify-content: center;
     text-decoration: none;
     font-size: 3vw;
     font-weight: bold;
     color: rgb(75, 0, 75);
+}*/
+.projectstart img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
 }
-.runbuddy, .horiseon, .bakery, .sky-space {
-    margin: 25px;
+
+.runbuddy {
+   position: relative;
 }
+
+/* .horiseon .bakery .sky-space {
+    display: flex;
+    justify-content: center;
+    
+} */
+.projectend {
+    display: flex;
+    justify-content: space-evenly;
+    flex: row;
+}
+
+.projectend img {
+    width: 100%;
+    padding: 25px;
+}
+
+.runbuddy a{
+    position:absolute;
+    justify-content: stretch;
+    border-bottom: 39px solid rgba(255, 88, 88, 0.75);
+    height: 10px;
+    width: 35%;
+}
+
+.bakery a {
+    position:absolute;
+    justify-content: stretch;
+    border-bottom: 39px solid rgba(255, 88, 88, 0.75);
+    height: 10px;
+    width: 80%;
+}
+
+.horiseon a{
+    position:absolute;
+    justify-content: stretch;
+    border-bottom: 39px solid rgba(255, 88, 88, 0.75);
+    height: 10px;
+    width: 80%;
+}
+
+.sky-space a{
+    position:absolute;
+    justify-content: stretch;
+    border-bottom: 39px solid rgba(255, 88, 88, 0.75);
+    height: 10px;
+    width: 80%;
+}
+
+
+
+.horiseon{
+    position: relative;
+
+}
+
+.bakery {
+    position:relative;
+
+}
+
+.sky-space {
+    position:relative;
+
+}
+
+
+.absolute {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    text-decoration: none;
+    text-indent: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+
+
+
 
 /* footer */
 .footerimg {
@@ -155,6 +242,12 @@ footer h2 {
     header nav ul li a {
         font-size: 20px;
     }
+
+    /* work 
+    .horiseon .bakery .sky-space {
+        width: 200px;
+        justify-content: center;
+    }*/
 
     /*footer*/
 
