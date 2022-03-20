@@ -166,34 +166,40 @@ header nav ul {
 
 /* footer */
 .footerimg {
-    inline-size: 30px;
-    margin: 5px;
-    justify-content:end;
+    inline-size: 35px;
+    margin: 0 35px 0 0;
+    justify-content:center;
 }
 
 #one {
-    object-position: 0 -2px;
+    object-position: 0 -3px;
 }
 
 footer h2 {
-    text-align: center;
+    text-align:center;
+    position: relative;
     font-size: 3vw;
     padding: 25px;
+    padding-bottom: 45px;
     color: rgb(75, 0, 75);
 }
 
 
 .flex-container {
     display: flex;
-   justify-content: space-evenly;
-    margin: 30px 25px;
+    justify-content: space-evenly;
     font-size: 1.5vw;
     color: rgb(75, 0, 75);
+    padding: 0 0 15px 0;
 }
 
 .email {
-    padding: 12px 0;
+    margin-left: 25px;
 }
+
+
+
+
 
 
 
@@ -226,7 +232,7 @@ footer h2 {
     /*footer*/
 
     .flex-container {
-       flex: 0 25%;
+       flex: 0 100%;
     }
     
 }
@@ -241,10 +247,12 @@ footer h2 {
          /*footer*/
     .flex-container {
         flex: 0 50%;
+        padding-right: inherit;
     }
 
     .about-me h2 {
         font-size: 26pt;
+        padding-bottom: 0;
     }
 
     .projects h2 {
@@ -254,9 +262,12 @@ footer h2 {
 
     footer h2 {
         font-size: 26pt;
-        padding: 0;
+ 
     }
 
+    .footerimg {
+        inline-size: 28px;
+    }
     .about-me {
         margin: 25px;
         padding: 0;
@@ -265,7 +276,7 @@ footer h2 {
     .about-bio {
         font-size: 100%;
         margin: 0;
-        padding: 25px 0 0 0;
+        padding: 0 0 20px 0;
         float: right;
     }
 
@@ -292,13 +303,15 @@ footer h2 {
      /* footer */
     footer h2 {
         font-size: 155%;
-        padding: 0;
-    
-    
+        padding-bottom: 25px;
+
     }
 
+  
      .flex-container {
         flex: 0 100%;
+        padding-right:inherit;
+       
     }
 
     header nav ul li a {
@@ -308,9 +321,17 @@ footer h2 {
     .email {
         font-size: 12px;
     }
+
+    .about-me h2 {
+        padding-bottom: 0;
+    }
     
     .about-bio {
         font-size: 100%;
-        padding: 0;
+        padding: 0 0 20px 0;
+    }
+
+    #aboutMePic {
+        width: 100%;
     }
 }
