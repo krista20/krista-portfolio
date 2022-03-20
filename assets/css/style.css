@@ -80,110 +80,79 @@ header nav ul {
 }
 
 /* work */
-/*.projects img {
-    width: 90%;
-    border: 2.5px solid rgb(75, 0, 75);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
-} */
+.projects {
+    padding-bottom: 50px;
+}
 
-/*.projects a {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
+.projects h2 {
+    text-align: center;
     font-size: 3vw;
-    font-weight: bold;
+    padding: 100px 0 45px 0;
     color: rgb(75, 0, 75);
-}*/
+}
+
 .projectstart img {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 25px;
+    padding: 20px;
 }
 
 .runbuddy {
    position: relative;
 }
-
-/* .horiseon .bakery .sky-space {
-    display: flex;
-    justify-content: center;
-    
-} */
 .projectend {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex: row;
+    margin: 0 13px;
+
+
 }
 
 .projectend img {
     width: 100%;
-    padding: 25px;
+    padding: 0 10px;
+
 }
-
-.runbuddy a{
-    position:absolute;
-    justify-content: stretch;
-    border-bottom: 39px solid rgba(255, 88, 88, 0.75);
-    height: 10px;
-    width: 35%;
-}
-
-.bakery a {
-    position:absolute;
-    justify-content: stretch;
-    border-bottom: 39px solid rgba(255, 88, 88, 0.75);
-    height: 10px;
-    width: 80%;
-}
-
-.horiseon a{
-    position:absolute;
-    justify-content: stretch;
-    border-bottom: 39px solid rgba(255, 88, 88, 0.75);
-    height: 10px;
-    width: 80%;
-}
-
-.sky-space a{
-    position:absolute;
-    justify-content: stretch;
-    border-bottom: 39px solid rgba(255, 88, 88, 0.75);
-    height: 10px;
-    width: 80%;
-}
-
-
 
 .horiseon{
     position: relative;
-
 }
 
 .bakery {
     position:relative;
-
 }
 
 .sky-space {
     position:relative;
-
 }
 
-
-.absolute {
+.projectend .absolute {
     position: absolute;
     top: 80%;
-    left: 10%;
+    left: 40px;
+    right: 0%;
     text-decoration: none;
-    text-indent: 20px;
+    text-indent: 5px;
     font-size: 2vw;
     font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-size: contain;
 }
 
-
-
-
+.projectstart .absolute {
+    position: absolute;
+    top: 80%;
+    left: 50px;
+    right: 50%;
+    text-decoration: none;
+    text-indent: 5px;
+    font-size: 2vw;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-size: cover;
+}
 
 /* footer */
 .footerimg {
@@ -199,14 +168,15 @@ header nav ul {
 footer h2 {
     text-align: center;
     font-size: 3vw;
-    padding: 10px;
+    padding: 25px;
+    color: rgb(75, 0, 75);
 }
 
 
 .flex-container {
     display: flex;
    justify-content: space-evenly;
-    margin: 25px;
+    margin: 30px 25px;
     font-size: 1.5vw;
     color: rgb(75, 0, 75);
 }
@@ -243,12 +213,6 @@ footer h2 {
         font-size: 20px;
     }
 
-    /* work 
-    .horiseon .bakery .sky-space {
-        width: 200px;
-        justify-content: center;
-    }*/
-
     /*footer*/
 
     .flex-container {
@@ -268,6 +232,7 @@ footer h2 {
     .flex-container {
         flex: 0 50%;
     }
+
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -276,8 +241,25 @@ footer h2 {
         /* this will be applied to any screen smaller than 575px */
         font-size: 100px;
     }
+    /* about me */
+    .about-me h2 {
+        font-size: 155%;
+    }
 
-     /*footer*/
+    /* work */
+    .projects h2 {
+        font-size: 155%;
+        padding: 8px;
+    }
+
+     /* footer */
+    footer h2 {
+        font-size: 155%;
+        padding: 0;
+    
+    
+    }
+
      .flex-container {
         flex: 0 100%;
     }
@@ -293,7 +275,5 @@ footer h2 {
     .email {
         font-size: 12px;
     }
-
- 
 
 }
