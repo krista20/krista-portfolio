@@ -4,7 +4,7 @@ Challenge 2: Advanced CSS Challenge: Professional Portfolio
 Below explains what the user experience is like for the website and key process points that explains the website's development.
 
 ___________
-Navagation Bar Section:
+Navigation Bar Section:
 Includes a name, and links to each section of the page.
 
 ___________
@@ -18,23 +18,23 @@ Includes four project images. One project image is larger than the three below i
 
 ___________
 Contact:
-Includes and email and four icons. Icons are clickable and deploy the user to each website in a new tab.
+Includes an email and four icons. Icons are clickable and deploy the user to each website in a new tab.
 
 ___________
 Screenshots:
 
 For Desktop:
-![](/assets/readme_imgs/krista-portfolio-desktop.png)
+![](/assets/images/krista-portfolio-desktop.png)
 
 For Tablet:
-![](/assets/readme_imgs/krista-portfolio-tablet.png)
+![](/assets/images/krista-portfolio-tablet.png)
 
 For Mobile:
-![](/assets/readme_imgs/krista-portfolio-mobile.png)
+![](/assets/images/krista-portfolio-mobile.png)
 
 ___________
 Summary:
-This webiste is an example of a responsive webiste. Media Queries, semantic HTML elements, and flexbox have been utilized in this challenge.
+This website is an example of a responsive website. Media Queries, semantic HTML elements, and flexbox have been utilized in this challenge.
 ___________
-Link to Krista's Portfolio Webiste:
+Link to Krista's Portfolio Website:
 https://krista20.github.io/krista-portfolio/
