@@ -23,14 +23,15 @@ Includes and email and four icons. Icons are clickable and deploy the user to ea
 ___________
 Screenshots:
 
-Desktop:
+For Desktop:
+![](/assets/readme_imgs/krista-portfolio-desktop.png)
 
-
-Tablet:
-
+For Tablet:
+![](/assets/readme_imgs/krista-portfolio-tablet.png)
 
 For Mobile:
-![](/assets/readme_imgs/krista-portfolio-mobile.jpg)
+![](/assets/readme_imgs/krista-portfolio-mobile.png)
+
 ___________
 Summary:
 This webiste is an example of a responsive webiste. Media Queries, semantic HTML elements, and flexbox have been utilized in this challenge.
